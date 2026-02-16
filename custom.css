@@ -1,0 +1,127 @@
+/* Custom CSS for NI Financial Services Investment Deck */
+
+/* Logo styling */
+.reveal .slide-logo {
+  max-height: 80px;
+  margin: 10px;
+}
+
+/* Slide styling */
+.reveal h2 {
+  color: #003366;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.reveal h3 {
+  color: #0066cc;
+  font-weight: 500;
+  margin-bottom: 0.8em;
+}
+
+/* Center aligned slides */
+.center h2 {
+  text-align: center;
+}
+
+.center h3 {
+  text-align: center;
+  font-style: italic;
+}
+
+/* Callout boxes */
+.callout-note {
+  background-color: #e6f2ff;
+  border-left: 4px solid #0066cc;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.callout-important {
+  background-color: #fff4e6;
+  border-left: 4px solid #ff9900;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.callout-tip {
+  background-color: #e6ffe6;
+  border-left: 4px solid #00cc66;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Tables */
+.reveal table {
+  font-size: 0.85em;
+  margin: 1em auto;
+}
+
+.reveal table th {
+  background-color: #003366;
+  color: white;
+  font-weight: 600;
+}
+
+.reveal table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+/* Lists */
+.reveal ul, .reveal ol {
+  margin: 0.5em 0;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+}
+
+/* Columns */
+.columns {
+  display: flex;
+  gap: 2em;
+}
+
+.column {
+  flex: 1;
+}
+
+/* Fragment animation */
+.fragment {
+  opacity: 0;
+}
+
+.fragment.visible {
+  opacity: 1;
+}
+
+/* Smaller text for dense slides */
+.smaller {
+  font-size: 0.85em;
+}
+
+.smaller h2 {
+  font-size: 1.8em;
+}
+
+.smaller h3 {
+  font-size: 1.4em;
+}
+
+/* Scrollable content for backup slides */
+.scrollable {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* Footer styling */
+.reveal .footer {
+  font-size: 0.7em;
+  color: #666;
+}
+
+/* Emphasis */
+strong {
+  color: #003366;
+  font-weight: 700;
+}
