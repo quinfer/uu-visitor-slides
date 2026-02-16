@@ -553,12 +553,24 @@ margin: 0.5em 0;
 margin-bottom: 0.5em;
 }
 
-.columns {
+.reveal .columns {
 display: flex;
-gap: 2em;
+gap: 1.5em;
+align-items: flex-start;
 }
-.column {
-flex: 1;
+.reveal .column {
+flex-shrink: 0;
+padding: 0 0.5em;
+}
+
+.reveal .column[style*="width: 50%"] {
+flex-basis: 48%;
+}
+.reveal .column[style*="width: 60%"] {
+flex-basis: 58%;
+}
+.reveal .column[style*="width: 40%"] {
+flex-basis: 38%;
 }
 
 .fragment {
@@ -1114,7 +1126,7 @@ Ulster University Business School
 <ul>
 <li>30,000+ financial services professionals</li>
 <li>Major operations: Citi, Allstate, Liberty Mutual</li>
-<li>Lower cost base than London/Dublin</li>
+<li>Competitive operational costs alternatively to London/Dublin</li>
 <li>High-quality talent retention</li>
 </ul>
 </div><div class="column" style="width:50%;">
